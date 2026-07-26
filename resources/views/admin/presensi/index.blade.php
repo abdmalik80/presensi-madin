@@ -5,7 +5,7 @@
     @endphp
     <x-slot name="header">Presensi</x-slot>
 
-    <div class="space-y-4 pb-20 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-4 pb-8 md:pb-0" x-data="{ showFilterModal: false }">
         <x-alert />
         
 

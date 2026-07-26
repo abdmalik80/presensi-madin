@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">Manajemen Pengguna</x-slot>
 
-    <div class="space-y-4 pb-20 md:pb-0" x-data="{ 
+    <div class="space-y-4 pb-8 md:pb-0" x-data="{ 
         showFilterModal: false,
         selectedIds: [],
         selectAllPages: false,

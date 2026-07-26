@@ -5,7 +5,7 @@
     @endphp
     <x-slot name="header">Validasi Izin</x-slot>
 
-    <div class="space-y-4 pb-20 md:pb-0" x-data="{ showFilterModal: false, filterStatus: '{{ request('status', '') }}' }">
+    <div class="space-y-4 pb-8 md:pb-0" x-data="{ showFilterModal: false, filterStatus: '{{ request('status', '') }}' }">
         <x-alert />
 
         {{-- Status Badge Summary --}}

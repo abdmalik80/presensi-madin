@@ -19,7 +19,7 @@
     @endphp
     <x-slot name="header">Dokumentasi & Berkas</x-slot>
 
-    <div class="space-y-5 pb-20 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-5 pb-8 md:pb-0" x-data="{ showFilterModal: false }">
         <x-alert />
 
         {{-- Mobile Header & Filter Button --}}
