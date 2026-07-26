@@ -8,7 +8,7 @@
     }
     @endphp
 
-    <div class="space-y-4 pb-10 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-4" x-data="{ showFilterModal: false }">
 
         {{-- Summary Cards --}}
         @if(isset($summary))

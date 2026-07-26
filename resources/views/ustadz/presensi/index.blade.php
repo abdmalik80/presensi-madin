@@ -7,7 +7,7 @@
     @endphp
     <x-slot name="header">Majelis & Presensi</x-slot>
 
-    <div class="space-y-5 pb-10 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-5" x-data="{ showFilterModal: false }">
         <x-alert />
 
         {{-- Jadwal Majelis Section --}}

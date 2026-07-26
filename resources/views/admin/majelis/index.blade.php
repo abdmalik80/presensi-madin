@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">Data Majelis</x-slot>
 
-    <div class="space-y-4 pb-10 md:pb-0" x-data="{
+    <div class="space-y-4" x-data="{
         showFilterModal: false,
         selectedIds: [],
         selectAllPages: false,

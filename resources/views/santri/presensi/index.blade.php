@@ -6,7 +6,7 @@
     @endphp
 
 
-    <div class="space-y-5 pb-10 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-5" x-data="{ showFilterModal: false }">
         {{-- Tab Navigasi --}}
         <div class="flex gap-1.5 bg-white/60 backdrop-blur-xl rounded-2xl p-1.5 border border-white/50 shadow-[0_4px_20px_rgb(0,0,0,0.04)] w-full md:w-fit">
             <a href="{{ route('santri.presensi.index') }}"
