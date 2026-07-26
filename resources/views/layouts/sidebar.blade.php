@@ -188,13 +188,16 @@
             </form>
         </nav>
         
-        <div class="mt-4 flex items-center px-2">
+        <div class="mt-4 flex flex-col items-center px-2">
             <div class="flex items-center w-full bg-white bg-opacity-10 rounded-lg p-2 gap-2">
                 <img class="object-cover w-8 h-8 rounded-full flex-shrink-0" src="{{ auth()->user()->foto_profil ? asset('storage/'.auth()->user()->foto_profil) : 'https://ui-avatars.com/api/?name='.urlencode(auth()->user()->name).'&color=14532D&background=F1F5F9' }}" alt="avatar">
                 <div class="min-w-0">
                     <p class="text-xs font-semibold text-white truncate">{{ auth()->user()->name }}</p>
                     <p class="text-[10px] text-gray-300 capitalize truncate">{{ auth()->user()->role }}</p>
                 </div>
+            </div>
+            <div class="mt-3 text-center opacity-40">
+                <p class="text-[9px] text-white">Presensi Madin v1.0.0</p>
             </div>
         </div>
     </div>
