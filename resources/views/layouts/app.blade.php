@@ -87,7 +87,7 @@
                 @include('layouts.navbar', ['header' => trim(strip_tags((string)($header ?? 'Dashboard')))])
 
                 <!-- Page Content -->
-                <main class="p-4 sm:p-5 lg:p-8 pb-24 sm:pb-8 lg:pb-8 w-full max-w-7xl mx-auto" style="padding-bottom: max(6rem, env(safe-area-inset-bottom, 1.5rem));">
+                <main class="p-4 sm:p-5 lg:p-8 pb-8 sm:pb-8 lg:pb-8 w-full max-w-7xl mx-auto" style="padding-bottom: max(2rem, env(safe-area-inset-bottom, 1.5rem));">
                     {{ $slot }}
                 </main>
             </div>
