@@ -5,7 +5,7 @@
     @endphp
     <x-slot name="header">Data Kitab</x-slot>
 
-    <div class="space-y-4 pb-8 md:pb-0" x-data="{ 
+    <div class="space-y-4 pb-4 md:pb-0" x-data="{ 
         showFilterModal: false,
         selectedIds: [],
         selectAllPages: false,

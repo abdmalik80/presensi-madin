@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">Riwayat Izin Saya</x-slot>
 
-    <div class="space-y-4 pb-8 md:pb-0">
+    <div class="space-y-4 pb-4 md:pb-0">
         <x-alert />
 
         <div class="flex justify-between items-center">

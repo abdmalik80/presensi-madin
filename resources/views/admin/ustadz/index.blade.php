@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">Data Ustadz</x-slot>
 
-    <div class="space-y-4 pb-8 md:pb-0" x-data="{ 
+    <div class="space-y-4 pb-4 md:pb-0" x-data="{ 
         showFilterModal: false, 
         filterStatus: '{{ request('status_aktif', '') }}',
         selectedIds: [],
