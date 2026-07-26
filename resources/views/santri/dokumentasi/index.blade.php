@@ -23,7 +23,7 @@
     @endphp
     <x-slot name="header">Berkas & Dokumentasi Majelis</x-slot>
 
-    <div class="space-y-5 pb-4 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-5 pb-10 md:pb-0" x-data="{ showFilterModal: false }">
 
         {{-- Header Info & Mobile Filter --}}
         <div class="bg-white/70 backdrop-blur-xl rounded-2xl border border-white/50 shadow-sm p-4 md:p-5 flex items-center justify-between gap-3 sticky top-0 z-30 md:static md:z-auto">

@@ -5,7 +5,7 @@
     $majelisOptions = []; foreach($majelis as $m) $majelisOptions[$m->id] = $m->nama_majelis; $kitabOptions = []; foreach($kitabs as $k) $kitabOptions[$k->id] = $k->nama_kitab;
     @endphp
 
-    <div class="space-y-4 pb-4 md:pb-0" x-data="{ showFilterModal: false }">
+    <div class="space-y-4 pb-10 md:pb-0" x-data="{ showFilterModal: false }">
 
         {{-- Summary Cards --}}
         @if(isset($summary))
