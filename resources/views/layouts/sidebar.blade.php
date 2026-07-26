@@ -40,7 +40,7 @@
         </a>
     </div>
 
-    <div id="sidebar-menu" class="flex flex-col justify-between flex-1 overflow-y-auto px-4 pt-6" style="padding-bottom: max(5rem, env(safe-area-inset-bottom, 2rem));">
+    <div id="sidebar-menu" class="flex flex-col justify-between flex-1 overflow-y-auto px-4 pt-6" style="padding-bottom: env(safe-area-inset-bottom, 1.5rem);">
         <nav>
             @php
                 $role    = auth()->user()->role;
